@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    margin-bottom: 200px;
+}
+.hrtag{
+    margin-top: 7px;
+}
+.box1 {
+    border: 5px solid red;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    font-weight:800;    
+    color: red;
+    font-style: italic;
+    box-shadow: 5px 5px 5px purple;
+    margin-left: 40%;
+    padding: 20px; 
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px purple;  
+    font-size:30px; 
+}
+.cointainer{
+    border: 10px solid green;
+    height: 630px;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 7px solid red; 
+    border-radius: 20px;
+    
+    background-color: white;
+    
+}
+.img{
+    height: 200px;
+    width: 200px;
+    margin-top:  20px;
+    margin-left: 20px;
+    border: 4px solid;
+}
+.box2{
+    font-size: 30px;
+    font-family: 'DM Serif Text', serif;
+    font-weight: 900;
+    color: black;
+    text-shadow: 1px 2px 2px purple;
+    line-height: 45px;
+    text-align: center;
+    padding-bottom: 20px;
+    float: left;
+}
+.box3{
+    float: right;
+    position: relative; 
+    right: 70px;
+}
+.box4{
+    font-size:25px;
+    font-weight: 600;
+    color: black;
+    text-shadow: 1px 2px 2px purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    position: relative;
+    clear: left;
+    margin-top: 90px;
+}
+.box5{
+    font-size:15px;
+    color:purple ;
+    padding-top: 20px;
+    text-align: center;
+    float: right;
+    position: relative;
+    right: 70px;
+    margin-top: 90px; 
+}
+.form label {
+    display: block;
+    padding-top: 20px;
+}
+.btn{
+    border-radius: 10px;
+    width: 90px;
+    background-color: red;
+}
+.flex{
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+    height: 500px;
+    
+}
+.footer{
+    background-color: green;
+    border: 7px solid purple;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fheading{
+    font-size:20px;
+    text-align: center;
+    font-weight: 1000;
+    padding: 20px;
+}
+.fbox1{
+    background-color: yellow;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    line-height: 2;
+}
+.fbox2{
+    background-color: yellow;
+    height: 300px;
+    width: 50%;
+    position: relative;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 2;
+}
+.fbox3{
+    background-color: yellow;
+    height: 150px;
+    width: 700px;
+    margin-top:10px ;
+    text-align: center;
+    line-height: 1.5;
+}
+.boxtext{
+   
+    font-size: 20px;
+    font-weight: 1000;
+    margin: 10px;
+    border-bottom: 1px solid ;
+    padding: 20px; 
+}
+.fixed{
+    position: fixed;
+    bottom: 100px;
+    left: 35%;
+    background-color: greenyellow;
+    border: 7px solid red;
+    border-radius: 10px;
+    display: flex;
+    width: 400px;
+    height: 70px;
+    padding-top:10px ;
+    box-shadow: 5px 5px 5px purple;
+    
+}
+.lbox1{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    
+}
+.lbox2{
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+
+
